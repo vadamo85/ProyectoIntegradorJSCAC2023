@@ -30,7 +30,58 @@
     <!-- Fin header -->
     <!-- Inicio main -->
     <main>
-        
+        <h1>CREAR NUEVO ITEM</h1>
+        <form action="admin.html" method="post"></form> <!--chequear el link de la pagina de admin a donde va la info del formulario-->
+            <div>
+                <label for="categoria">Categoria:</label>
+                <select name="categoria" id="cat">
+                    <option value="seleccionar">Seleccionar</option>
+                    <option value="starwars">StarWars</option>
+                    <option value="harrypotter">Harry Potter</option>
+                    <option value="pokemon">Pokemon</option>
+                </select>
+                <label for="licencia">Licencia:</label> <!--nose que opciones van-->
+                <select name="licencia" id="cat">
+                    <option value="seleccionar">Seleccionar</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div>
+                <label for="nombre-producto">Nombre del producto:</label>
+                <input type="text" id="nombre-producto" name="nombre-producto" placeholder="Kakashi Hatake Shippuden Saga">
+            </div>
+            <div>
+                <input type="text" id="descripcion-producto" name="descripcion-producto" placeholder="Descripción del producto">
+            </div>
+            <div>
+                <label for="sku-producto">SKU:</label>
+                <input type="text" id="sku-producto" name="sku-producto" placeholder="SSK111AB001">
+                <label for="precio-producto">Precio:</label>
+                <input type="text" id="precio-producto" name="precio-producto" placeholder="$ 0.000,00">
+                <label for="stock-producto">Stock:</label>
+                <input type="text" id="stock-producto" name="stock-producto" placeholder="0">
+            </div>
+            <div>
+                <label for="descuento-producto">Descuento:</label>
+                <input type="text" id="descuento-producto" name="descuento-producto" placeholder="0%">
+                <label for="cuotas">Cuotas:</label> <!--nose que opciones van-->
+                <select name="cuotas" id="cuo">
+                    <option value="seleccionar">3 Cuotas sin interés</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div>
+                <label for="imagen-producto">Imágenes:</label>
+                <input type="file" id="imagen-producto" name="imagen-producto" multiple>
+            </div>
+            <div>
+                <input type="submit" value="Agregar Producto">
+                <input type="reset" value="Limpiar">
+            </div>
     </main>
     <!-- Fin main-->
     <!-- Inicio footer -->

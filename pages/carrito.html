@@ -33,7 +33,103 @@
     <!-- Fin header -->
     <!-- Inicio main -->
     <main>
-        
+        <section>
+            <h1>CARRITO DE COMPRAS</h1>
+            <table>
+                <article>
+                    <tr>
+                        <th><h3>DETALLE DE PRODUCTO</h3></th>
+                        <th> <!-- COLUMNA DE DESCRIPCION DE LA IMAGEN --> </th>
+                        <th><h3>CANTIDAD</h3></th>
+                        <th><h3>TOTAL</h3></th>
+                        <th> <!-- COLUMNA DE BOTON DE ELIMINAR DEL CARRITO--> </th>
+                    </tr>
+                </article>
+                    <tr>
+                            <td>
+                                <picture>
+                                    <img src="../img/star-wars/baby-yoda-1.webp" alt="Figura coleccionable Funko de Grogu de la serie de The Mandalorian."> 
+                                </picture>
+                            </td>   
+                            <td>
+                                        <h4>BABY YODA BLUEBALL</h4>
+                                        <p>STAR WARS</p>
+                                        <p>$1.799,99.-</p> 
+                            </td>
+                            </td>
+                            <td>
+                                <label for="cantidad" id="cantidad"></label>
+                                <input type="number" id="cantidad" name="cantidad">
+                                <input type="button" value="+" />
+                                <input type="button" value="-" />
+                            </td>
+                            <td>
+                                <p>$ 3599,98 </p>
+                            </td>
+                            <td>
+                                <input type="button" value="X" />
+                            </td>
+                        </tr>
+                <article>
+                    <tr>
+                        <td>
+                            <picture>
+                                <img src="../img/pokemon/pidgeotto-1.webp" alt="Figura coleccionable Funko de Pidgeotto."> 
+                            </picture>
+                        </td>   
+                        <td>
+                                    <h4>PIDGEOTTO</h4>
+                                    <p>POKEMON</p>
+                                    <p>$ 1799,99 </p> 
+                        </td>
+                        </td>
+                        <td>
+                            <label for="cantidad" id="cantidad"></label>
+                            <input type="number" id="cantidad" name="cantidad">
+                            <input type="button" value="+" />
+                            <input type="button" value="-" />
+                        </td>
+                        <td>
+                            <p>$ $ 1799,99 </p>
+                        </td>
+                        <td>
+                            <input type="button" value="X" />
+                        </td>
+                    </tr>
+                </article>
+            </table>
+        </section>  
+        <section>
+            <h1>RESUMEN</h1>
+            <article>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><h3>CANTIDAD DE ELEMENTOS</h3></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><h3>SUBTOTAL</h3></td>
+                        <td>$ 5.399,97</td>
+                    </tr>
+                    <tr>
+                        <td><h3>ENVIO</h3></td>
+                        <td>$ 0,00</td>
+                    </tr>
+                    <tr>
+                        <td>----------------------------------------------------------------------------</td>
+                    </tr>
+                    <tr>
+                        <td><h3>TOTAL</h3></td>
+                        <td>$ 5.399,97</td>
+                    </tr>
+                </table>
+                <input type="button" value="IR A PAGAR" />
+            </article>
+        </section>
     </main>
     <!-- Fin main-->
     <!-- Inicio footer -->
